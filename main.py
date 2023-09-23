@@ -50,8 +50,8 @@ thal = st.text_input(
     "Enter defect type: 3 = normal; 6 = fixed defect; 7 = reversable defect", ""
 )
 d= {
-    "age": [age],
-    "sex": [sex],
+    "age": [int(age)],
+    "sex": [int(sex)],
     "chest": [chest],
     "resting_blood_pressure": [resting_blood_pressure],
     "serum_cholestoral": [serum_cholestoral],
